@@ -1,6 +1,6 @@
 # Memecoin Analyzer — Public Explainable Demo
 
-[![tests](https://github.com/OlegonZo/Memecoin-analyzer-/actions/workflows/tests.yml/badge.svg)](https://github.com/OlegonZo/Memecoin-analyzer-/actions/workflows/tests.yml)
+[![tests](https://github.com/OlegonZo/solana-memecoin-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/OlegonZo/solana-memecoin-analyzer/actions/workflows/tests.yml)
 
 [Русская версия](README_RU.md)
 
