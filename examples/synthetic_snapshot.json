@@ -1,0 +1,42 @@
+{
+  "symbol": "DEMO",
+  "liquidity_usd": 185000,
+  "volume_24h_usd": 420000,
+  "top_10_holder_ratio": 0.42,
+  "mint_authority_enabled": false,
+  "freeze_authority_enabled": false,
+  "wallets": [
+    {
+      "wallet_id": "SYNTH_WALLET_ALPHA",
+      "net_buy_usd": 8200,
+      "quality": 0.90
+    },
+    {
+      "wallet_id": "SYNTH_WALLET_BRAVO",
+      "net_buy_usd": 6100,
+      "quality": 0.78
+    },
+    {
+      "wallet_id": "SYNTH_WALLET_CHARLIE",
+      "net_buy_usd": 4700,
+      "quality": 0.72
+    },
+    {
+      "wallet_id": "SYNTH_WALLET_DELTA",
+      "net_buy_usd": 2600,
+      "quality": 0.65
+    },
+    {
+      "wallet_id": "SYNTH_WALLET_DUST",
+      "net_buy_usd": 35,
+      "quality": 0.99
+    },
+    {
+      "wallet_id": "SYNTH_WALLET_SELLER",
+      "net_buy_usd": -900,
+      "quality": 0.80
+    }
+  ]
+}
+
+
