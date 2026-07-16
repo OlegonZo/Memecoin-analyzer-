@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memecoin-analyzer-demo"
+version = "1.0.0"
+description = "A sanitized, explainable demo of wallet-accumulation signal evaluation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Oleg Gulyaev" }
+]
+keywords = ["crypto", "on-chain", "analytics", "risk", "python"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+memecoin-analyzer-demo = "memecoin_analyzer_demo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
